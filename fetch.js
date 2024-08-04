@@ -24,7 +24,7 @@ function handleSearch(){
 
 function preciseid(n) {
     box.innerText = JSON.stringify(fetchData[n])
-    console.log("preciseid")
+    console.log("Precise-id")
 }
 
 
@@ -40,63 +40,6 @@ function preciseid(n) {
 button.addEventListener('click', () => {
     preciseid(searchVariable);
 })
- //this is what i add in the file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//this is what i add in the file
 
 
