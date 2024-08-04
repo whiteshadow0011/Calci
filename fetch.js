@@ -40,8 +40,7 @@ function preciseid(n) {
 button.addEventListener('click', () => {
     preciseid(searchVariable);
 })
-
-
+ //this is what i add in the file
 
 
 
