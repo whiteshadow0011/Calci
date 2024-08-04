@@ -43,7 +43,9 @@ button.addEventListener('click', () => {
  //this is what i add in the file
 
 
-
+function newFeature(){
+    return console.log("New feature added")
+}
 
 
 
