@@ -42,9 +42,9 @@ button.addEventListener('click', () => {
 })
  //this is what i add in the file
 
-
+const newFeature= "Feature A"
 function newFeature(){
-    return console.log("New feature added")
+    return console.log("New feature added" + newFeature)
 }
 
 
