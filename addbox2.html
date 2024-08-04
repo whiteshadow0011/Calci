@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">add box</button>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    <script>
+        let button = document.querySelector(".btn")
+        let container = document.querySelector(".container")
+        document.addEventListener("DOMContentLoaded", function(){
+
+            button.addEventListener("click", function(){
+                let html= `<div class="box"></div>`
+                container.innerHTML += html
+                
+            })
+        })
+    </script>
+</body>
+</html>
